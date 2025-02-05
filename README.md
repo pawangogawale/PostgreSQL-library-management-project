@@ -19,6 +19,7 @@ This project demonstrates the implementation of a Library Management System usin
 
 ## Project Structure
 
+![ERD](https://github.com/pawangogawale/PostgreSQL-library-management-project/blob/main/library_erd.png?raw=true)
 
 -- 1. **Database Creation**: Created a database named `library_project2_db`.
 - **Table Creation**: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
