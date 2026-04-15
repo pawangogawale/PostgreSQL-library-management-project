@@ -164,6 +164,7 @@ having count(*)>1;
 --Task 6: Create Summary Tables: Used CTAS to generate new tables based on query results 
 -- each book and total book_issued_cnt**
 ```sql
+
 Create table book_cnt
 as
 select 
@@ -234,6 +235,7 @@ where r.issued_id is null;
 
 -- issued status == books == members == return_status
 ```sql
+
 select m.member_id,
 	bk.book_title,
 	ist.issued_date,
